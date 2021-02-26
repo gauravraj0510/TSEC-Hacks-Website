@@ -2567,6 +2567,9 @@ p.wow.fadeInDown.animated, h2.section-title.wow.fadeInUp.animated, #sponsors .se
 #information-bar .inforation-wrapper {
   background: 	#1c1c1c;
 }
+#information-bar .inforation-wrapper {
+background-image: linear-gradient(0deg, #000 0, #000c44 100%);
+}
 #information-bar ul li span b{
   color: aliceblue;
 }
