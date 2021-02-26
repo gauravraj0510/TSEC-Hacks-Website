@@ -897,11 +897,11 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin-right: 10px;
 }
 
-#event-up .event-item {
+#prizes .event-item {
   position: relative;
 }
 
-#event-up .event-item .overlay-text {
+#prizes .event-item .overlay-text {
   text-align: center;
   position: absolute;
   top: 0px;
@@ -916,7 +916,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   transition: all 0.3s ease-in-out;
 }
 
-#event-up .event-item .content {
+#prizes .event-item .content {
   position: absolute;
   top: 30%;
   width: 100%;
@@ -928,21 +928,21 @@ a.back-to-top:hover, a.back-to-top:focus {
   transition: all 0.3s ease-in-out;
 }
 
-#event-up .event-item .content h3 {
+#prizes .event-item .content h3 {
   font-size: 16px;
   text-transform: uppercase;
 }
 
-#event-up .event-item .content a {
+#prizes .event-item .content a {
   color: #0000ff;
   margin-top: 10px;
 }
 
-#event-up .event-item:hover .content {
+#prizes .event-item:hover .content {
   top: 50%;
 }
 
-#event-up .event-item .overlay-text:hover {
+#prizes .event-item .overlay-text:hover {
   opacity: 1;
 }
 
