@@ -2515,3 +2515,7 @@ h2#last-stats {
   color: white;
   margin-bottom: 20px;
 }
+img#footer-logo {
+  width: 100px;
+  margin-top: 50px;
+}
