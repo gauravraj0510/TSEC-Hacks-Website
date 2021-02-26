@@ -2375,7 +2375,7 @@ footer {
 ========================================================================== */
 .hero-area-bg {
   /* background: url(../img/hero-area.jpg) no-repeat; */
-  background: url(https://cdn.pixabay.com/photo/2017/05/17/15/08/ransomware-2321110__340.jpg) no-repeat;
+  background: url(../img/background/bg1.jpeg) no-repeat;
   background-size: cover;
   background-position: center bottom;
   height: 100vh;
