@@ -4,7 +4,7 @@ html {
 }
 /* #0000ff */
 body {
-  /* background: #fcfd9b; */
+  background: #171c29;
   font-size: 15px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
@@ -586,7 +586,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .top-nav-collapse {
-  background: #fff;
+  background: #1c1c1c;
   z-index: 999999;
   top: 0px !important;
   min-height: 58px;
@@ -2538,6 +2538,90 @@ div#clock {
 section#count {
   height: 0;
 }
+
 /* section#prizes {
   background-color: white;
 } */
+
+/* Dark Theme */
+section#about {
+  background: #171c29;
+  color: #fff;
+}
+section#information-bar {
+  background: #171c29;
+}
+p.wow.fadeInDown.animated, h2.section-title.wow.fadeInUp.animated {
+  color: #fff;
+}
+#information-bar .inforation-wrapper {
+  background: 	#1c1c1c;
+}
+#information-bar ul li span b{
+  color: aliceblue;
+}
+span {
+  color: white;
+}
+section#schedules ,section#faq{
+  background: #171c29;
+}
+.schedule .nav-tabs .nav-link, div#headingOne, div#headingOne1, div#headingOne3 {
+  background: #1c1c1c;
+}
+.schedule .show .card-body {
+  background: #333333;
+}
+.schedule .card-header h4 , p, h3{
+  color: white;
+}
+.schedule .card-header .name{
+  color:beige;
+}
+.schedule .nav-tabs .nav-link, #information-bar .inforation-wrapper, .blog-item .icon {
+  box-shadow: 0 8px 24px #000;
+}
+.schedule .item-text h4{
+  color: white;
+}
+.schedule .item-text h5{
+  color: aliceblue;
+}
+.schedule .schedule-tab-content .tab-content, #contact-text .contact-wrapper {
+  box-shadow: 0 8px 24px #000;
+}
+.blog-item .descr {
+  background: #1c1c1c;
+  color: whitesmoke;
+}
+.blog-item .descr h3 a{
+  color: white;
+}
+section#contact-text, footer {
+  background: #000;
+}
+#contact-text .contact-wrapper {
+  background: #1c1c1c;
+}
+.single-intro-text {
+  box-shadow: 0 8px 24px #000;
+  background: #1c1c1c;
+}
+.single-intro-text:hover {
+  box-shadow: 0 8px 24px #2c2c2c;
+}
+.blog-item{
+  box-shadow: 0 8px 24px #000;
+}
+.blog-item:hover {
+  box-shadow: 0 8px 24px #2c2c2c;
+}
+.top-nav-collapse{
+  background: #1c1c1c;
+}
+.top-nav-collapse {
+  background: #1c1c1c !important;
+}
+.top-nav-collapse .navbar-nav .nav-link {
+  color: #fff !important;
+}
