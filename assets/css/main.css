@@ -4,7 +4,7 @@ html {
 }
 /* #0000ff */
 body {
-  background: #fcfd9b;
+  /* background: #fcfd9b; */
   font-size: 15px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
@@ -1123,10 +1123,11 @@ h1 {
 
 /* Sponsors Area */
 #sponsors {
-  background: url(../img/background/countdown.jpg) no-repeat center;
+  background: url(https://cdn.pixabay.com/photo/2015/12/08/00/26/desk-1081708_960_720.jpg) no-repeat center;
   background-attachment: scroll;
   background-size: auto auto;
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
   position: relative;
 }
@@ -2528,15 +2529,15 @@ img#footer-logo {
   width: 100px;
   margin-top: 50px;
 }
-section#faq {
+/* section#faq {
   background-color: #fcfd9b;
-}
+} */
 div#clock {
   margin-bottom: 0;
 }
 section#count {
   height: 0;
 }
-section#prizes {
+/* section#prizes {
   background-color: white;
-}
+} */
