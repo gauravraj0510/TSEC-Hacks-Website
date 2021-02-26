@@ -1123,7 +1123,7 @@ h1 {
 
 /* Sponsors Area */
 #sponsors {
-  background: url(../img/background/bg2.jpg) no-repeat center;
+  background: url(../img/background/countdown.jpg) no-repeat center;
   background-attachment: scroll;
   background-size: auto auto;
   background-size: cover;
@@ -2375,7 +2375,7 @@ footer {
 ========================================================================== */
 .hero-area-bg {
   /* background: url(../img/hero-area.jpg) no-repeat; */
-  background: url(../img/background/bg2.jpeg) no-repeat;
+  background: url(https://cdn.pixabay.com/photo/2017/05/17/15/08/ransomware-2321110__340.jpg) no-repeat;
   background-size: cover;
   background-position: center bottom;
   height: 100vh;
@@ -2395,6 +2395,10 @@ footer {
   left: 0px;
   background: rgba(0, 0, 0, 0.3);
   background-color: linear-gradient(45deg, #ffffff 0, #000 100%);
+}
+
+img#nav-logo {
+  width: 80px;
 }
 
 #hero-area .contents {
