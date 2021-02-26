@@ -2510,3 +2510,8 @@ div#clock {
   }
   
 }
+
+h2#last-stats {
+  color: white;
+  margin-bottom: 20px;
+}
