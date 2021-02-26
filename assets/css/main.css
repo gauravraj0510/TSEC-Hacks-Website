@@ -959,7 +959,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .ready-to-play:before {
   content: '';
-  background-image: linear-gradient(0deg, #0000ff 0, #00bfff 100%);
+  background-image: linear-gradient(0deg, #68edc6 0, #fcfdb9 100%);
   position: absolute;
   display: block;
   left: 0px;
@@ -2522,4 +2522,13 @@ img#footer-logo {
 }
 section#faq {
   background-color: #fcfd9b;
+}
+div#clock {
+  margin-bottom: 0;
+}
+section#count {
+  height: 0;
+}
+section#prizes {
+  background-color: white;
 }
