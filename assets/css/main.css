@@ -959,7 +959,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .ready-to-play:before {
   content: '';
-  background-image: linear-gradient(0deg, #68edc6 0, #fcfdb9 100%);
+  background-image: linear-gradient(0deg, #1b1153 0, #3fa3c2 100%);
   position: absolute;
   display: block;
   left: 0px;
@@ -2542,6 +2542,7 @@ section#count {
 /* section#prizes {
   background-color: white;
 } */
+
 
 /* Dark Theme */
 section#about {
