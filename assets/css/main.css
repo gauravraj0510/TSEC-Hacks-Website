@@ -597,7 +597,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   animation-fill-mode: both;
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
-  background: #fff !important;
+  background: #1c1c1c !important;
 }
 
 .top-nav-collapse .navbar-brand {
@@ -2525,6 +2525,9 @@ div#clock {
   #clock div h4 {
     font-size: 14px;
     font-weight: 500;
+  }
+  #nav-container{
+    background: #1c1c1c;
   }
   
   
