@@ -4,7 +4,7 @@ html {
 }
 /* #0000ff */
 body {
-  background: #fff;
+  background: #fcfd9b;
   font-size: 15px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
@@ -2519,4 +2519,7 @@ h2#last-stats {
 img#footer-logo {
   width: 100px;
   margin-top: 50px;
+}
+section#faq {
+  background-color: #fcfd9b;
 }
