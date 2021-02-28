@@ -1825,7 +1825,7 @@ h1 {
 }
 
 .blog-item .descr h3 a:hover {
-  color: #0000ff;
+  color: rgb(253, 253, 45);
 }
 
 .blog-item .meta-tags {
