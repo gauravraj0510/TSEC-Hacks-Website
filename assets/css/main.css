@@ -1828,6 +1828,12 @@ h1 {
   color: rgb(253, 253, 45);
 }
 
+.register-link{
+  color: #2aca25 !important;
+  cursor: pointer;
+  font-weight: 700;
+}
+
 .blog-item .meta-tags {
   background: #f5f6f6;
   padding: 10px;

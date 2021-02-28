@@ -74,6 +74,14 @@
         }
       });
 
+      $('.register-link').on('click',function(event) {
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: 0
+        }, 800);
+        return false;
+      });
+
       $('.back-to-top').on('click',function(event) {
         event.preventDefault();
         $('html, body').animate({
@@ -85,3 +93,4 @@
   });      
 
 }(jQuery));
+
