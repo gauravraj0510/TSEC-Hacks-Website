@@ -115,13 +115,13 @@ ul li, ol li {
 
 .section-title:before {
   content: "[";
-  color: #1a6439;
+  color: #238f50;
   padding-right: 10px;
 }
 
 .section-title:after {
   content: "]";
-  color: #1a6439;
+  color: #238f50;
   padding-left: 10px;
 }
 
@@ -226,7 +226,7 @@ ul li, ol li {
 
 .btn-common:hover {
   color: #fff;
-  background-image: linear-gradient(65deg, rgb(255, 255, 112) 0, #fcff4a 100%);
+  background-image: linear-gradient(65deg, rgb(202, 157, 32) 0, #e1f00b 100%);
   color: #000;
   box-shadow: 0 8px 16px rgba(226, 243, 73, 0.4);
   transition: all .2s ease-in-out;
@@ -690,7 +690,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .navbar-expand-lg .navbar-nav li a:hover,
 .navbar-expand-lg .navbar-nav li .active > a,
 .navbar-expand-lg .navbar-nav li a:focus {
-  background-image: linear-gradient(65deg, #206135 0, #53be8c 100%);
+  background-image: linear-gradient(65deg, #1ec453 0, #53be8c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -699,7 +699,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .navbar-expand-lg .navbar-nav .nav-link:focus,
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-  background-image: linear-gradient(65deg, #206135 0, #53be8c 100%);
+  background-image: linear-gradient(65deg, #1ec453 0, #53be8c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text !important;
@@ -710,7 +710,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar li.active a.nav-link {
-  background-image: linear-gradient(65deg, #206135 0, #53be8c 100%);
+  background-image: linear-gradient(65deg, #1ec453 0, #53be8c 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text !important;
@@ -2622,6 +2622,7 @@ section#information-bar {
 }
 p.wow.fadeInDown.animated, h2.section-title.wow.fadeInUp.animated, #sponsors .section-title-header {
   color: #fff;
+  font-size: 20px;
 }
 #information-bar .inforation-wrapper {
   background: 	#1c1c1c;
@@ -2699,4 +2700,8 @@ section#contact-text, footer {
 }
 i{
   color: #1f854a !important ;
+}
+
+h2.section-title.wow.fadeInUp.animated {
+  font-size: 40px;
 }
