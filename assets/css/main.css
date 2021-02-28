@@ -112,6 +112,7 @@ ul li, ol li {
   margin-bottom: 10px;
 }
 
+
 .section-title:before {
   content: "[";
   color: #0000ff;
@@ -184,7 +185,7 @@ ul li, ol li {
   left: 0px;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .btn {
@@ -216,8 +217,9 @@ ul li, ol li {
 }
 
 .btn-common {
-  background-image: linear-gradient(65deg, #0000ff 0, #00bfff 100%);
-  box-shadow: 0 8px 16px rgba(77, 95, 255, 0.4);
+  /* background-image: linear-gradient(65deg, #0000ff 0, #00bfff 100%); */
+  background-image: linear-gradient(65deg, #1f854a 0, #45bd85 100%);
+  box-shadow: 0 8px 16px rgba(65, 196, 61, 0.4);
   position: relative;
   z-index: 1;
 }
@@ -302,8 +304,8 @@ a.back-to-top i {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  color: #fff;
-  background-image: linear-gradient(65deg, #0000ff 0, #00bfff 100%);
+  color: #fff !important;
+  background-image: linear-gradient(65deg, #368657 0, #53be8c 100%);
   border-radius: 30px;
   text-align: center;
   transition: all 0.2s ease-in-out;
@@ -846,6 +848,25 @@ a.back-to-top:hover, a.back-to-top:focus {
     padding: 0px 40px;
     color: #fff;
   }
+ 
+.about-content .about-text h2 {
+    font-size: 38px !important;
+    margin-top: 20px;
+    text-align: center;
+}
+.section-title {
+  font-size: 30px !important;
+}
+#sponsor-heading{
+  font-size: 40px !important;
+}
+  .hero-area-bg {
+    /* background: url(../img/hero-area.jpg) no-repeat; */
+    background: url(../img/background/bgop-mob.png) no-repeat !important;
+    background-size: cover;
+    background-position: center;
+    
+  }
 }
 
 #about {
@@ -1021,8 +1042,18 @@ h1 {
   color: #fff;
 }
 
+.counter-section .counter .icon i{
+  color: #fff !important;
+}
+.counter-section .counter .icon {
+  background-image: linear-gradient(65deg, #206135 0, #53be8c 100%) !important;
+}
+
 .video-text {
   text-align: center;
+}
+.video-text i{
+  color: #fff !important;
 }
 
 .video-text h4 {
@@ -1132,7 +1163,8 @@ h1 {
 
 /* Sponsors Area */
 #sponsors {
-  background: url(https://cdn.pixabay.com/photo/2015/12/08/00/26/desk-1081708_960_720.jpg) no-repeat center;
+  /* background: url(https://cdn.pixabay.com/photo/2015/12/08/00/26/desk-1081708_960_720.jpg) no-repeat center; */
+  background-color: #fff;
   background-attachment: scroll;
   background-size: auto auto;
   background-size: cover;
@@ -1195,7 +1227,7 @@ h1 {
 .schedule .nav-tabs .nav-item .nav-link:hover {
   border-color: transparent;
   position: relative;
-  background-image: linear-gradient(65deg, #0000ff 0, #00bfff 100%);
+  background-image: linear-gradient(65deg, #206135 0, #53be8c 100%);
 }
 
 .schedule .nav-tabs .nav-item.show .nav-link h4, .schedule .nav-tabs .nav-link.active h4,
@@ -1215,7 +1247,7 @@ h1 {
   bottom: -24px;
   border-width: 12px;
   border-style: solid;
-  border-color: #0000ff transparent transparent transparent;
+  border-color: #1a6439 transparent transparent transparent;
 }
 
 .schedule .item-text {
@@ -1252,7 +1284,7 @@ h1 {
 }
 
 .schedule .card .schedule-slot-time {
-  background-image: linear-gradient(65deg, #0000ff 0, #00bfff 100%);
+  background-image: linear-gradient(65deg, #206135 0, #53be8c 100%);
   color: #fff;
   padding: 38px 28px;
   float: left;
@@ -1263,7 +1295,10 @@ h1 {
   flex: 0 0 18%;
   max-width: 18%;
 }
-
+#information-bar .inforation-wrapper i{
+  background-image: linear-gradient(65deg, #206135 0, #53be8c 100%);
+  font-weight: 700;
+}
 .schedule .card-header {
   position: relative;
   padding: 35px 40px 35px 224px;
@@ -1355,7 +1390,7 @@ h1 {
 }
 
 .accordion .card-header i {
-  color: #0000ff;
+  color: #1f854a;
   width: 40px;
   height: 40px;
   display: inline-block;
@@ -1477,7 +1512,7 @@ h1 {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -ms-border-radius: 50%;
-  background-image: linear-gradient(0deg, #0000ff 0, #00bfff 100%);
+  background-image: linear-gradient(65deg, #368657 0, #53be8c 100%);
   color: #fff;
   display: block;
   text-align: left;
@@ -1486,8 +1521,10 @@ h1 {
   padding: 25px 30px;
 }
 
-.single-intro-text:hover i {
-  background-image: linear-gradient(65deg, #0000ff 0, #00bfff 100%);
+
+
+.single-intro-text:hover i{
+  background-image: linear-gradient(65deg, rgb(253, 253, 45) 0, #fbff00 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -2379,15 +2416,18 @@ footer {
   background: #fff;
   color: #212121;
 }
+.blog-item .icon, .hack-desc {
+  display: none;
+}
 
 /* ==========================================================================
 3. Hero Area
 ========================================================================== */
 .hero-area-bg {
   /* background: url(../img/hero-area.jpg) no-repeat; */
-  background: url(../img/background/bg1.jpeg) no-repeat;
+  background: url(../img/background/bgop.png) no-repeat;
   background-size: cover;
-  background-position: center bottom;
+  background-position: center center;
   height: 100vh;
 }
 
@@ -2408,7 +2448,7 @@ footer {
 }
 
 img#nav-logo {
-  width: 80px;
+  width: 65px;
 }
 
 #hero-area .contents {
@@ -2476,7 +2516,7 @@ img#nav-logo {
   width: 100px;
   padding: 15px 0;
   background: rgba(255, 255, 255, 0.12);
-  border-top: 5px solid #0000ff ;
+  border-top: 5px solid yellow;
 }
 
 #clock div h3 {
@@ -2529,6 +2569,9 @@ div#clock {
   #nav-container{
     background: #1c1c1c;
   }
+  .about-content ul li {
+    font-size: 15px !important;
+}
 }
 
 h2#last-stats {
@@ -2553,7 +2596,11 @@ section#count {
   background-color: white;
 } */
 
-
+#sponsor-heading{
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #000 !important;
+}
 /* Dark Theme */
 section#about {
   background: #171c29;
@@ -2638,4 +2685,7 @@ section#contact-text, footer {
 }
 .top-nav-collapse .navbar-nav .nav-link {
   color: #fff !important;
+}
+i{
+  color: #1f854a !important ;
 }
