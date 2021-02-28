@@ -835,7 +835,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 @media (max-width: 991px) {
   .bg-inverse {
-    background: #fff !important;
+    background: #1c1c1c !important;
     box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
   }
   .navbar-expand-lg .navbar-brand, .navbar-expand-lg .navbar-toggler {
@@ -854,7 +854,7 @@ a.back-to-top:hover, a.back-to-top:focus {
     margin-top: 0;
     margin-bottom: 0;
     padding: 0px 40px;
-    color: #fff;
+    color: #1c1c1c;
   }
  
 .about-content .about-text h2 {
@@ -2548,7 +2548,15 @@ div#clock {
 .count-item{
   font-family: monospace;
 }
-
+@media (max-width: 445px){
+  .hero-area-bg {
+    /* background: url(../img/hero-area.jpg) no-repeat; */
+    background: url(../img/background/bgop-mob.png) no-repeat !important;
+    background-size: cover;
+    background-position: center;
+    
+  }
+}
 @media (max-width: 768px) {
   #count .count-wrapper {
     padding-top: 50px;
@@ -2574,13 +2582,7 @@ div#clock {
   .about-content ul li {
     font-size: 17px !important;
 }
-.hero-area-bg {
-  /* background: url(../img/hero-area.jpg) no-repeat; */
-  background: url(../img/background/bgop-mob.png) no-repeat !important;
-  background-size: cover;
-  background-position: center;
-  
-}
+
 }
 
 h2#last-stats {
