@@ -831,6 +831,9 @@ a.back-to-top:hover, a.back-to-top:focus {
     padding: 0px 40px;
     color: #212121;
   }
+  .about-text p{
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -854,7 +857,7 @@ a.back-to-top:hover, a.back-to-top:focus {
     margin-top: 0;
     margin-bottom: 0;
     padding: 0px 40px;
-    color: #1c1c1c;
+    color: #fff;
   }
  
 .about-content .about-text h2 {
@@ -900,6 +903,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 .about-content .about-text p {
   margin-top: 20px;
   margin-bottom: 20px;
+  font-size: 17px;
 }
 
 .about-content ul {
@@ -917,7 +921,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   position: absolute;
   left: 0;
   top: 7px;
-  font-size: 16px;
+  font-size: 20px;
   color: #0000ff;
 }
 
@@ -2701,7 +2705,10 @@ section#contact-text, footer {
 i{
   color: #1f854a !important ;
 }
-
 h2.section-title.wow.fadeInUp.animated {
+  font-size: 40px;
+}
+
+li.stylish-list {
   font-size: 40px;
 }
