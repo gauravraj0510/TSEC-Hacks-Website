@@ -227,7 +227,17 @@ ul li, ol li {
 .btn-common:hover {
   color: #fff;
   background-image: linear-gradient(65deg, rgb(202, 157, 32) 0, #e1f00b 100%);
-  color: #000;
+  /* color: #000; */
+  box-shadow: 0 8px 16px rgba(226, 243, 73, 0.4);
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+}
+
+.btn-common:hover {
+  color: #fff;
+  background-color: rgb(247, 223, 7);
+  /* color: #000; */
   box-shadow: 0 8px 16px rgba(226, 243, 73, 0.4);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
@@ -2105,27 +2115,27 @@ footer {
 }
 
 .social-icons-footer .facebook a:hover {
-  border-color: #4867aa;
+  border-color: #389b30;
   color: #4867aa;
 }
 
 .social-icons-footer .twitter a:hover {
-  border-color: #1da1f2;
+  border-color: #389b30;
   color: #1da1f2;
 }
 
 .social-icons-footer .linkedin a:hover {
-  border-color: #0077B5;
+  border-color: #389b30;
   color: #0077B5;
 }
 
 .social-icons-footer .google a:hover {
-  border-color: #ea4335;
+  border-color: #389b30;
   color: #ea4335;
 }
 
 .social-icons-footer .pinterest a:hover {
-  border-color: #bd081c;
+  border-color: #389b30;
   color: #bd081c;
 }
 
