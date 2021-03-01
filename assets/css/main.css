@@ -2592,6 +2592,9 @@ div#clock {
   .about-content ul li {
     font-size: 17px !important;
 }
+.prize-desc{
+  display: block !important;
+}
 
 }
 
@@ -2717,4 +2720,7 @@ h2.section-title.wow.fadeInUp.animated {
 
 li.stylish-list {
   font-size: 40px;
+}
+.prize-desc{
+  display: none;
 }
