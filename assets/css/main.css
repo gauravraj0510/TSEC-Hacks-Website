@@ -2470,9 +2470,10 @@ footer {
 }
 
 img#nav-logo {
-  width: 100px;
+  width: 120px;
   height: auto;
-  
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #hero-area .contents {
