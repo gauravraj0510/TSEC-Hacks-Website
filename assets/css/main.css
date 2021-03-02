@@ -1780,7 +1780,6 @@ h1 {
 
 .blog-item .blog-image {
   width: 100%;
-  max-width: 370px;
   position: relative;
   overflow: hidden;
 }
@@ -2471,7 +2470,9 @@ footer {
 }
 
 img#nav-logo {
-  width: 65px;
+  width: 100px;
+  height: auto;
+  
 }
 
 #hero-area .contents {
