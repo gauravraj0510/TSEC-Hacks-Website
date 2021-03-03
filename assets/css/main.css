@@ -1050,6 +1050,7 @@ h1 {
 
 .video-text {
   background-size: cover;
+  background-position: center top;
   height: 100%;
   left: 0;
   position: absolute;
