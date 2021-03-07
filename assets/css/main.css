@@ -2451,7 +2451,7 @@ footer {
   background: url(../img/background/bgop.png) no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 100vh;
+  height: 110vh;
 }
 
 #hero-area {
@@ -2581,6 +2581,7 @@ div#clock {
     background: url(../img/background/onlybg.png) no-repeat !important;
     background-size: cover;
     background-position: center; 
+    height: 100vh;
   }
   #hero-register{
   }
@@ -2593,9 +2594,10 @@ div#clock {
 }
 @media (max-width: 768px) {
   #count .count-wrapper {
-    padding-top: 50px;
+    padding-top: 150px;
     top: -200px;
     color: white;
+    padding-bottom: 30px;
   }
   #clock div {
     width: 70px;
