@@ -1845,6 +1845,11 @@ h1 {
   font-weight: 700;
 }
 
+.last-yr-ps-link{
+  color: #2aca25 !important;
+  font-weight: 700;
+}
+
 .blog-item .meta-tags {
   background: #f5f6f6;
   padding: 10px;
