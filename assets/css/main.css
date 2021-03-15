@@ -221,7 +221,6 @@ ul li, ol li {
   background-image: linear-gradient(65deg, #1f854a 0, #45bd85 100%);
   box-shadow: 0 8px 16px rgba(65, 196, 61, 0.4);
   position: relative;
-  z-index: 1;
 }
 
 .btn-common:hover {
@@ -2599,8 +2598,9 @@ div#clock {
 }
 @media (max-width: 768px) {
   #count .count-wrapper {
-    padding-top: 150px;
+    margin-top: 100px;
     top: -200px;
+    z-index: 0;
     color: white;
     padding-bottom: 30px;
   }
