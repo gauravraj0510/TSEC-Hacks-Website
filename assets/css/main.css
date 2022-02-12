@@ -334,6 +334,7 @@ a.back-to-top {
   bottom: 18px;
   right: 15px;
   text-decoration: none;
+  z-index: 100000;
 }
 
 a.back-to-top i {
