@@ -2596,6 +2596,24 @@ div#clock {
 #hero-image {
   display: none;
 }
+@media (max-width: 720px) {
+  .hero-area-bg {
+    /* background: url(../img/hero-area.jpg) no-repeat; */
+    background: url(../img/background/onlybg.png) no-repeat !important;
+    background-size: cover !important;
+    background-position: center;
+    height: 100vh;
+  }
+
+  #hero-register {
+  }
+  #hero-image {
+    display: block;
+  }
+  #hero-area .contents .banner-btn {
+    margin-top: 0px;
+  }
+}
 @media (max-width: 445px) {
   .hero-area-bg {
     /* background: url(../img/hero-area.jpg) no-repeat; */
