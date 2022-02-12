@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:500,700");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:500,700');
 html {
   overflow-x: hidden;
 }
@@ -21,7 +21,7 @@ body {
   background: #0f121a;
   font-size: 15px;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -40,7 +40,7 @@ h4,
 h5 {
   font-size: 36px;
   font-weight: 700;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -60,7 +60,7 @@ a a:focus {
 
 p {
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0px;
   font-size: 14px;
 }
@@ -133,13 +133,13 @@ ol li {
 }
 
 .section-title:before {
-  content: "[";
+  content: '[';
   color: #0099ff;
   padding-right: 10px;
 }
 
 .section-title:after {
-  content: "]";
+  content: ']';
   color: #0099ff;
   padding-left: 10px;
 }
@@ -163,7 +163,7 @@ ol li {
 
 .section-sub:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 1px;
   width: 45px;
   left: 50%;
@@ -212,7 +212,7 @@ ol li {
   padding: 10px 30px;
   line-height: 22px;
   border-radius: 30px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   cursor: pointer;
   font-weight: 500;
   color: #fff;
@@ -238,7 +238,7 @@ ol li {
 .btn-common {
   /* background-image: linear-gradient(65deg, #0000ff 0, #00bfff 100%); */
   background-image: linear-gradient(65deg, #2b72ad 0, #0099ff 50%);
-  box-shadow: 0 8px 16px rgba(65, 196, 61, 0.4);
+  box-shadow: 0 8px 16px rgba(26, 164, 206, 0.75);
   position: relative;
 }
 
@@ -386,7 +386,7 @@ a.back-to-top:focus {
 }
 
 .sk-circle .sk-child:before {
-  content: "";
+  content: '';
   display: block;
   margin: 0 auto;
   width: 15%;
@@ -573,7 +573,7 @@ a.back-to-top:focus {
 }
 
 .page-banner:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -684,7 +684,7 @@ a.back-to-top:focus {
   padding: 0 15px;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   line-height: 40px;
   text-transform: uppercase;
@@ -696,7 +696,7 @@ a.back-to-top:focus {
 }
 
 .navbar-expand-lg .navbar-nav li > a:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 19px;
   left: 5%;
@@ -777,7 +777,7 @@ a.back-to-top:focus {
 }
 
 .dropdown-menu:before {
-  content: "";
+  content: '';
   display: inline-block;
   position: absolute;
   bottom: 100%;
@@ -1033,7 +1033,7 @@ a.back-to-top:focus {
 }
 
 .ready-to-play:before {
-  content: "";
+  content: '';
   background-image: linear-gradient(0deg, #2a1c7a 0, #3fa3c2 100%);
   position: absolute;
   display: block;
@@ -1156,7 +1156,7 @@ h1 {
 }
 
 .counter-section:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   bottom: 0;
@@ -1291,7 +1291,7 @@ h1 {
 
 .schedule .nav-tabs .nav-item.show .nav-link:before,
 .schedule .nav-tabs .nav-link.active:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 42%;
   bottom: -24px;
@@ -1418,8 +1418,8 @@ h1 {
 }
 
 .accordion .header-title:after {
-  font-family: "LineIcons";
-  content: "\e93a";
+  font-family: 'LineIcons';
+  content: '\e93a';
   position: absolute;
   right: 10px;
   color: #999;
@@ -1430,7 +1430,7 @@ h1 {
 }
 
 .accordion .collapsed:after {
-  content: "\e940";
+  content: '\e940';
 }
 
 .accordion .card-header {
@@ -2297,7 +2297,7 @@ footer {
   border: none;
   position: relative;
   height: auto;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   border-radius: 4px;
   text-align: center;
   font-weight: 400;
@@ -2312,7 +2312,7 @@ footer {
   line-height: 45px;
   font-weight: 700;
   letter-spacing: 0.3;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: block;
   color: #fff;
   margin-bottom: 10px;
